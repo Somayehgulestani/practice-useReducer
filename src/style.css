@@ -1,0 +1,89 @@
+.parentElement {
+  max-width: 500px;
+
+  margin: 40px auto;
+  background-color: #d2c8c8;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  width: 60%;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #4a90e2;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  background: white;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+li button {
+  padding: 5px 10px;
+  margin: 0 2px;
+  font-size: 14px;
+}
+
+li button:nth-of-type(1) {
+  background-color: #2ecc71;
+}
+li button:nth-of-type(2) {
+  background-color: #f1c40f;
+}
+
+li button:nth-of-type(3) {
+  background-color: #e74c3c;
+}
+
+li button:hover {
+  opacity: 0.8;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #555;
+  border-top: 2px solid #eee;
+  padding-top: 15px;
+}
